@@ -5,11 +5,11 @@ let "randomIdentifier=$RANDOM*$RANDOM"
 location="eastus"
 resourceGroup="bhanu-azure-functions-rg-$randomIdentifier"
 tag="create-function-app-consumption-python"
-storage="abhi$randomIdentifier"
+storage="bhanu$randomIdentifier"
 functionApp="bhanu-serverless-python-function-$randomIdentifier"
 skuStorage="Standard_LRS"
 functionsVersion="4"
-pythonVersion="3.14" #Allowed values: 3.7, 3.8, and 3.9
+pythonVersion="3.11" #Allowed values: 3.7, 3.8, and 3.9
 
 # Create a resource group
 echo "Creating $resourceGroup in "$location"..."
