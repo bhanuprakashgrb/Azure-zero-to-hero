@@ -3,7 +3,7 @@
 # Variable block
 let "randomIdentifier=$RANDOM*$RANDOM"
 location="eastus"
-resourceGroup="abhi-azure-functions-rg-$randomIdentifier"
+resourceGroup="bhanu-azure-functions-rg-$randomIdentifier"
 tag="create-function-app-consumption-python"
 storage="abhi$randomIdentifier"
 functionApp="abhi-serverless-python-function-$randomIdentifier"
